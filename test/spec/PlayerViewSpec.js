@@ -5,17 +5,17 @@ describe('PlayerView', function() {
 
     library = new Songs([
       {
-        url: "mp3s/08 4 Page Letter.mp3",
+        url: "https://s3-us-west-1.amazonaws.com/hr-mytunes/data/05+Hot+Like+Fire.mp3",
         title: "4 Page Letter",
         artist: "Aaliyah"
       },
       {
-        url: "mp3s/11 We Need A Resolution.mp3",
+        url: "https://s3-us-west-1.amazonaws.com/hr-mytunes/data/06+If+Your+Girl+Only+Knew.mp3",
         title: "We Need A Resolution",
         artist: "Aaliyah"
       },
       {
-        url: "mp3s/A Third Song.mp3",
+        url: "https://s3-us-west-1.amazonaws.com/hr-mytunes/data/04+One+In+A+Million.mp3",
         title: "The Third Song",
         artist: "Aaliyah"
       },
@@ -32,7 +32,7 @@ describe('PlayerView', function() {
   });
 
   describe('Song transitions', function() {
-    xit('dequeues a song when finished playing & plays the next song', function(){
+    it('dequeues a song when finished playing & plays the next song', function(){
       var firstSong = library.at(0)
         , secondSong = library.at(1)
         , thirdSong = library.at(2)

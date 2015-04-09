@@ -1,0 +1,10 @@
+outstanding questions
+//difference?
+<script src="collections/Songs.js"></script>
+<script src="collections/SongQueue.js"></script>
+
+//what this?
+<script src="models/AppModel.js"></script>
+<script src="views/LibraryEntryView.js"></script>
+
+tagName: 'tr' vs el: '<audio controls autoplay />',
