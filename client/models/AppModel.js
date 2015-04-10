@@ -23,7 +23,6 @@ var AppModel = Backbone.Model.extend({
     this.get("songQueue").on('stop', function(song) {
       console.log('stop from app model')
       this.set('currentSong', null);
-      console.log(this.get('songQueue').at(1));
       console.log(this.get('currentSong'));
     }, this);
   }
