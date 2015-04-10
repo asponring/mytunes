@@ -35,4 +35,11 @@ describe('SongQueueView', function() {
     expect(view.render).to.have.been.called;
   });
 
+  // it('should remove clicked song from songqueue', function(){
+  //   view = new SongQueueView({collection: fakeSongs});
+  //   view.$el.children().first().click();
+  //   view.collection.pop();
+  //   expect(view.render).to.have.been.called;
+  // });
+
 });
